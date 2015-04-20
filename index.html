@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myapp">
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>google-map-directive</title>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
+<body ng-controller="myController">
+    <div googlemap markers="users"></div>
 </body>
 </html>
