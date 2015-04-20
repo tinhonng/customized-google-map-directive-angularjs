@@ -1,4 +1,28 @@
+html, body, .row{
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+.container-fluid{
+    height:calc(100% - 52.222px);
+    padding:0;
+    margin:0;
+}
+.col-sm-3, .col-sm-9{
+    height:100%;
+    padding:0;
+}
+
+.navbar, .navbar-default{
+    padding:0;
+    margin:0;
+}
+
+.table tr:first-child th{
+    border-top:0;
+}
 #mapArea{
-    height:500px;
+    height:100%;
     width:100%;
 }
